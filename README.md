@@ -1,4 +1,4 @@
-- 👋 Hi, I’m adhyaporwal
+- 👋 Hi, I’m Adhya Porwal
 - 👀 I’m interested in Machine Learning and Data Science
 - 🌱 I’m currently learning Data Science
 - 💞️ I’m looking to collaborate on ...
