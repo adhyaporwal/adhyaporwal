@@ -1,0 +1,18 @@
+body{
+    background-image:linear-gradient(rgba(100,110,20,0.5) 70%,rgb(150,160,170,0.3),rgb(100,150,200,0.7)),url('images/19.jpg');
+}
+h1{
+    font-size:30px ;
+    color:#641E16 ;
+    font-weight:900 ;
+}
+p{
+    font-size:15px ;
+    font-weight: 300;
+    color: #9c1101;
+    line-height:2 ;
+}
+h2{
+    font-size:20px ;
+    color:rgb(19, 81, 114) ;
+}

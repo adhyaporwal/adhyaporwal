@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>
+            Form
+        </title>
+        
+    </head>
+    <body>
+        <div id></div>
+        <form >
+            <label>Id</label>
+            <input type="text" name="id" required />
+            <label>Password</label>
+            <input type="password" name="pass" required />
+            <label>Confirm Password</label>
+            <input type="password" name="cpass" required />
+        </form>
+        <button onclick="Validate()">Submit</button>
+        <script type="text/javascript">
+            function Validate()
+            {
+                uid=document.getElementById("id").value ;
+                upass=document.getElementById("pass").value ;
+                ucpass=document.getElementById("cpass").value ;
+
+                idcheck=/^[A-Z]{5}[0-9]{5}$/;
+                passcheck=/^((?=.[A-Z a-z])(?=.[$*&/%_-])(?=.[0-9]){8,16})$/;
+                if(!idcheck.test(uid))
+                    alert("Id not correct");
+                if(!passcheck.test(upass))
+                    alert("Password error")
+                if(!passcheck.test(ucpass))
+                    alert("Cpass not correct")
+            }
+        </script>
+    </body>
+</html>

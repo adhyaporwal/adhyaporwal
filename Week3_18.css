@@ -1,0 +1,52 @@
+.container{
+    height: 95%;
+    width: 96%;
+    overflow: auto;
+    box-shadow: rgba(13, 13, 73, 0.5) 0px 7px 29px 0px;
+    outline-style: double;
+    outline-width: 2px;
+    outline-color: rgb(5, 5, 48);
+    margin: 25px 25px 25px 25px;
+}
+.container > div{
+    height: 200px;
+    width: 300px;
+    position: relative;
+    margin: 30px 30px 30px 30px;
+    outline-style: solid;
+    outline-color: darkblue;
+    outline-width: 2px;
+    box-shadow: rgba(85, 101, 216, 0.5) 0px 7px 29px 0px;
+    display:grid ;
+    justify-content: center;
+    align-items: center;
+    animation-name: animate1;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+    animation-timing-function:ease-in;
+    overflow: hidden;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 900;
+    color:rgb(5, 5, 71);
+}
+@keyframes animate1{
+    25%{
+        left:400px;
+        top: 0;
+    }
+    50%{
+        left:400px;
+        top:400px;
+    }
+  
+    75%{
+        left:0;
+        top:400px;
+    }
+    100%{
+        left: 0;
+        top:0; 
+    }
+}
