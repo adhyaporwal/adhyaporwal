@@ -1,5 +1,5 @@
 nav{
-	background-image:url("images/c14.avif");
+	background-color: black;
 }
 nav > ul{
 	display:flex;
